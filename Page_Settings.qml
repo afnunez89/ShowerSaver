@@ -6,13 +6,15 @@ Page {
     height: 400
 
     header: Label {
-        text: qsTr("New Page")
+        text: qsTr("ShowerSaver")
         font.pixelSize: Qt.application.font.pixelSize * 2
+        horizontalAlignment: Text.AlignHCenter
+        verticalAlignment: Text.AlignVCenter
         padding: 10
     }
 
     Label {
-        text: qsTr("This is a test commit.")
+        text: qsTr("This page is for the settings.")
         anchors.centerIn: parent
     }
 }

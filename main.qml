@@ -5,17 +5,20 @@ ApplicationWindow {
     width: 640
     height: 480
     visible: true
-    title: qsTr("Tabs")
+    title: qsTr("ShowerSaver app")
 
     SwipeView {
         id: swipeView
         anchors.fill: parent
         currentIndex: tabBar.currentIndex
 
-        Page1Form {
+        Page_Timer {
         }
 
-        Page2Form {
+        Page_Log {
+        }
+
+        Page_Settings {
         }
     }
 
@@ -24,10 +27,25 @@ ApplicationWindow {
         currentIndex: swipeView.currentIndex
 
         TabButton {
-            text: qsTr("Page 1")
+            text: qsTr("Timer")
+            background: Rectangle {
+                anchors.fill: parent
+                color: "steelblue"
+            }
         }
         TabButton {
-            text: qsTr("Page 2")
+            text: qsTr("Logs")
+            background: Rectangle {
+                      anchors.fill: parent
+                      color: "steelblue"
+                  }
+        }
+        TabButton {
+            text: qsTr("Settings")
+            background: Rectangle {
+                anchors.fill: parent
+                color: "steelblue"
+            }
         }
     }
 }

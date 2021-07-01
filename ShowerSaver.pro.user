@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.13.3, 2021-06-27T23:49:53. -->
+<!-- Written by QtCreator 4.13.3, 2021-07-02T00:02:29. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -377,8 +377,8 @@
     <value type="int" key="PE.EnvironmentAspect.Base">0</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">ShowerSaver</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.AndroidRunConfiguration:D:/MyOwnApps/ShowerSaver/ShowerSaver/ShowerSaver.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/MyOwnApps/ShowerSaver/ShowerSaver/ShowerSaver.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.AndroidRunConfiguration:D:/MyGitProjects/ShowerSaver/ShowerSaver/ShowerSaver.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/MyGitProjects/ShowerSaver/ShowerSaver/ShowerSaver.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
@@ -645,7 +645,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">D:/MyOwnApps/ShowerSaver/build-ShowerSaver-Desktop_Qt_5_15_2_MinGW_64_bit-Debug</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default"></value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
