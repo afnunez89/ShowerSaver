@@ -2,8 +2,8 @@ import QtQuick 2.12
 import QtQuick.Controls 2.5
 
 ApplicationWindow {
-    width: 640
-    height: 480
+    width: 383
+    height: 680
     visible: true
     title: qsTr("ShowerSaver app")
 

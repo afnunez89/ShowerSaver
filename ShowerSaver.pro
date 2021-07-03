@@ -24,6 +24,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 DISTFILES += \
     README.md \
+    appImages/timerPage.PNG \
     background.png \
     grid.png \
     wave.png

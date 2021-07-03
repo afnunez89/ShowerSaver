@@ -4,8 +4,8 @@ import QtQuick.Particles 2.0
 
 Page {
     id: page
-    width: 600
-    height: 400
+    width: 240
+    height: 480
 
     property int wave_y: height
     property int timerElapsed: 0
@@ -119,11 +119,11 @@ Page {
             Image {
                 id: wave
                 y: wave_y
-                source:"images/wave2.png"
+                source:"images/wave.png"
             }
             Image {
                 y: wave_y
-                source:"images/wave2.png"
+                source:"images/wave.png"
             }
             NumberAnimation on x { from: 0; to: -(wave.width); duration: 16000; loops: Animation.Infinite }
             SequentialAnimation on y {
@@ -138,11 +138,11 @@ Page {
             Image {
                 id: wave2
                 y: wave_y
-                source: "images/wave2.png"
+                source: "images/wave.png"
             }
             Image {
                 y: wave_y
-                source: "images/wave2.png"
+                source: "images/wave.png"
             }
             NumberAnimation on x { from: -(wave2.width); to: 0; duration: 32000; loops: Animation.Infinite }
             SequentialAnimation on y {

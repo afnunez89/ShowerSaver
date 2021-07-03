@@ -14,3 +14,7 @@ The main objectives are:
 - Set the max shower timer and alarms
 - Check the reports and graphs
  
+
+This is the actual version of the Timer page with animation:
+
+![alt text](/appImages/timerPage.PNG "TimerPage")
